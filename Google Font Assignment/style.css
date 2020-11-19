@@ -1,0 +1,130 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nine-image{
+    width: 20px;
+    height: 20px;
+}
+
+.profile-pix{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    top:-11px;
+}
+
+
+.section{
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    
+}
+
+
+input{
+    border-radius: 24px;
+    
+    width: 50%;
+    height: 50px;
+
+    
+    
+     
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: 0px;
+    position: relative;
+    bottom: -25px;
+    margin-right:5px;
+}
+
+p{
+    position: relative;
+    bottom: -45px;
+}
+
+span.lang{
+    color: blue;
+    margin: 1px;
+}
+
+#footerme{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color:gainsboro;
+    color: #FFFFFF;
+}
+
+#firstdiv{
+    display: flex;
+    position:relative;  top:-px;
+    border-bottom: 1px solid gray;
+    width: auto;
+    height: 50px;
+    color: black;
+    background-color: gainsboro;
+    
+
+}
+
+#secondiv{
+    width: auto;
+    height: 45px;
+    color: black;
+    background-color: gainsboro;
+}
+
+span.nig{
+    display: block;
+    float: left;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+span.left-footer{
+    float: left;
+    margin-right: 10px;
+     position: relative;
+    top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+span.right-footer{
+    
+    margin-left: 20px;
+    padding: 5px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+    
+}
+
+[input type=text]{
+    overflow: hidden;
+}
+
